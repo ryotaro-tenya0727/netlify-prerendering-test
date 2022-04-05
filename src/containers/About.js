@@ -1,7 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-const About = () => (
+const About = () => {
+  const imgUrl =
+    'https://user-images.githubusercontent.com/71915489/159755199-629aa3c9-46ef-4dfc-803e-667c1ef16b69.jpg';
   <div>
     <Helmet
       title='About'
@@ -11,8 +13,7 @@ const About = () => (
         { name: 'twitter:description', content: 'description of About' },
         {
           name: 'twitter:image',
-          content:
-            'https://user-images.githubusercontent.com/71915489/159755199-629aa3c9-46ef-4dfc-803e-667c1ef16b69.jpg',
+          content: imgUrl,
         },
         { property: 'og:title', content: 'About' },
         { property: 'og:type', content: 'website' },
@@ -22,14 +23,13 @@ const About = () => (
         },
         {
           property: 'og:image',
-          content:
-            'https://user-images.githubusercontent.com/71915489/159755199-629aa3c9-46ef-4dfc-803e-667c1ef16b69.jpg',
+          content: imgUrl,
         },
         { property: 'og:description', content: 'description of About' },
       ]}
     />
     <h2>About</h2>
-  </div>
-);
+  </div>;
+};
 
 export default About;
