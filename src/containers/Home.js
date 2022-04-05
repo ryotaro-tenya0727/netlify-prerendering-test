@@ -2,8 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const Home = () => {
-  const imgUrl =
-    'https://user-images.githubusercontent.com/71915489/161695870-e6677601-ec8e-4e15-8db8-cd1534057cbb.jpeg';
+  const imgUrl = 'https://source.unsplash.com/random';
   <div>
     <Helmet
       title='Home'
