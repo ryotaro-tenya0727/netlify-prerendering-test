@@ -16,7 +16,10 @@ const Home = () => (
         },
         { property: 'og:title', content: 'Home' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'http://path/to/this/url' },
+        {
+          property: 'og:url',
+          content: 'https://lucent-brioche-b463dc.netlify.app/',
+        },
         {
           property: 'og:image',
           content:

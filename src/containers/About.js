@@ -16,7 +16,10 @@ const About = () => (
         },
         { property: 'og:title', content: 'About' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'http://path/to/this/url' },
+        {
+          property: 'og:url',
+          content: 'https://lucent-brioche-b463dc.netlify.app/about',
+        },
         {
           property: 'og:image',
           content:
