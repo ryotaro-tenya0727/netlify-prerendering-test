@@ -9,7 +9,11 @@ const About = () => (
         { name: 'twitter:card', content: 'summary' },
         { name: 'twitter:title', content: 'About' },
         { name: 'twitter:description', content: 'description of About' },
-        { name: 'twitter:image', content: 'http://path/to/image' },
+        {
+          name: 'twitter:image',
+          content:
+            'https://user-images.githubusercontent.com/71915489/159755199-629aa3c9-46ef-4dfc-803e-667c1ef16b69.jpg',
+        },
         { property: 'og:title', content: 'About' },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'http://path/to/this/url' },
