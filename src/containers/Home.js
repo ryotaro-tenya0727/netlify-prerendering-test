@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 const Home = () => {
   const imgUrl =
-    'https://user-images.githubusercontent.com/71915489/159204626-e6d7a74a-0ffd-43f6-ba16-a195c506b84a.png';
+    'https://user-images.githubusercontent.com/71915489/161695870-e6677601-ec8e-4e15-8db8-cd1534057cbb.jpeg';
   <div>
     <Helmet
       title='Home'
